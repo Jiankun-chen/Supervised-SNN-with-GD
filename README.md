@@ -23,7 +23,7 @@ The guidance signal is the convergence membrane potential of output layer neuron
   <img src=".\fig\guild3.png" width=1037 height=449>
 </p>
 
-**Note: In this first version, we only open source three samples (one image for each category) of the data set, which are used to run the code. But a data set with only three samples will seriously affect the classification accuracy. Before executing the project, please expand the sample number to a certain value (dataset scale) or replace them with your own dataset. When creating your own data set, please save the spike sequences as `.pkl` files.**
+**Note: In this first version, we only open source three samples (one image for each category) of the dataset, which are used to run the code. But a dataset with only three samples will seriously affect the classification accuracy. Before executing the project, please expand the sample number to a certain value (dataset scale) or replace them with your own dataset. When creating your own data set, please save the spike sequences as `.pkl` files.**
 
 ## Training
 For training, you need to configure the image loading path `TRAIN_DIR`, `TEST_DIR` and the model event output path `TRAIN_WRITER_DIR`, `TEST_WRITER_DIR` and `CHECKPOINT_FL`. Then run `learning.py`.
