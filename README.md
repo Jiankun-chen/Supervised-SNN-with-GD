@@ -18,9 +18,9 @@ To accelerate and optimize the algorithm implementation, we directly input spike
 
 The guidance signal is the convergence membrane potential of output layer neurons based on an unsupervised learning method: [https://www.preprints.org/manuscript/202102.0083/v1](https://www.preprints.org/manuscript/202102.0083/v1 "Unsupervised Learning Method for SAR Image Classification Based on Spiking Neural Network"). They are features that neurons abstract from each category of the input images. The membrane potential guidance signals of BMP-2, BTR-60, and T-72 are as follows:
 <p align="center">
-  <img src=".\fig\guild1.png" width=1037 height=449>
-  <img src=".\fig\guild2.png" width=1034 height=449>
-  <img src=".\fig\guild3.png" width=1037 height=449>
+  <img src=".\fig\guild1.png" width=1037 height=419>
+  <img src=".\fig\guild2.png" width=1034 height=419>
+  <img src=".\fig\guild3.png" width=1037 height=419>
 </p>
 
 **Note: In this first version, we only open source three samples (one image for each category) of the dataset, which are used to run the code. But a dataset with only three samples will seriously affect the classification accuracy. Before executing the project, please expand the sample number to a certain value (dataset scale) or replace them with your own dataset. When creating your own data set, please save the spike sequences as `.pkl` files.**
