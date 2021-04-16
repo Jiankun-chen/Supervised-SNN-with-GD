@@ -51,7 +51,7 @@ The curve of Huber Loss versus training epoch of the supervised learning bilayer
 
 Feature visualization via Tensorboard (and output heat maps by Matlab):
 <p align="center">
-  <img src=".\fig\snnvis.png" width=1037 height=943>
+  <img src=".\fig\snnvis.png" width=1037 height=903>
 </p>
 
 The above figures are the visualization of synaptic weights of the supervised learning SNN. Each row from top to bottom is BMP-2, BTR-60, and T-72, respectively, and each column from left to right is the feature map via 5, 10, and 25 training epochs, respectively.
